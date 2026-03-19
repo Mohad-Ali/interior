@@ -1,18 +1,21 @@
 import React from "react";
+import blog1 from "../assets/blog1.png";
+import blog2 from "../assets/blog2.png";
+import blog3 from "../assets/blog3.png";
 
 const data = [
   {
-    image: "/blog1.png",
+    image: {blog1},
     title: "How To Color",
     text: "Colors influence how we feel in a space. By using the right shades, you can create a home that feels calm, energetic, or cozy.",
   },
   {
-    image: "/blog2.png",
+    image: {blog2},
     title: "Art of Styling the Coffee Table",
     text: "Styling a coffee table is all about balance, texture, and personality. Combine books, candles, trays, and a touch of greenery to create a curated yet inviting look.",
   },
   {
-    image: "/blog3.png",
+    image: {blog3},
     title: "Creating perfect Home Office",
     text: "A well-designed home office supports both style and function. Personal touches and thoughtful design help create a space you enjoy working in every day.",
   },

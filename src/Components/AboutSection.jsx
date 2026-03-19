@@ -1,4 +1,5 @@
 import React from "react";
+import Ellipse from "../assets/Ellipse.png";
 
 export default function AboutSection() {
   return (
@@ -16,7 +17,7 @@ export default function AboutSection() {
         {/* Circular Image */}
         <div className="w-72 h-72  rounded-full overflow-hidden shrink-0">
           <img
-            src="/Ellipse.png" // Replace with actual image path
+            src={Ellipse} // Replace with actual image path
             alt="Office team"
             className="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-300 ease-in-out"
           />

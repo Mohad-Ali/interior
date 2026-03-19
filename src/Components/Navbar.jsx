@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FaEnvelope, FaBars, FaTimes } from "react-icons/fa";
 import ContactForm from "./ContactForm";
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -34,7 +35,7 @@ const Navbar = () => {
       <nav className="flex justify-between items-center px-4 sm:px-6 py-3 sm:py-4 bg-[#F3EEE7]/70 backdrop-blur-md text-[#3B2A1A] shadow-md">
         <img
           className="h-10 sm:h-12 max-w-full "
-          src="/logo.png"
+          src={logo}
           alt="KRIZIANO INTERIORS"
         />
 

@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import ContactForm from "../Components/ContactForm";
+import whatwedo1 from "../assets/whatwedo1.png";
+import whatwedo2 from "../assets/whatwedo2.png";
+import whatwedo3 from "../assets/whatwedo3.png";
+import whatwedo4 from "../assets/whatwedo4.png";
 
 export default function WhatWeDo() {
 
@@ -14,7 +18,7 @@ export default function WhatWeDo() {
           {/* Kitchen Image - Tall on desktop */}
           <Link to="/customized/kitchen" className="md:row-span-2">
             <img
-              src="./whatwedo1.png"
+              src={whatwedo1}
               alt="Kitchen"
               className="w-full object-cover rounded-lg shadow h-[300px] sm:h-[400px] md:h-[540px] hover:scale-105 transition-transform duration-300 ease-in-out"
             />
@@ -23,7 +27,7 @@ export default function WhatWeDo() {
           {/* Bedroom Image */}
           <Link to="/customized/bedroom">
           <img
-            src="./whatwedo2.png"
+            src={whatwedo2}
             alt="Bedroom"
             className="w-full object-cover rounded-lg shadow h-[200px] sm:h-[240px] md:h-[260px] hover:scale-[1.02] transition-transform duration-300 ease-in-out"
           />
@@ -32,7 +36,7 @@ export default function WhatWeDo() {
           {/* Dining Image */}
           <Link to="/customized/dining">
             <img
-              src="./whatwedo3.png"
+              src={whatwedo3}
               alt="Dining"
               className="w-full object-cover rounded-lg shadow h-[200px] sm:h-[240px] md:h-[260px] hover:scale-[1.02] transition-transform duration-300 ease-in-out"
             />
@@ -41,7 +45,7 @@ export default function WhatWeDo() {
           {/* Living Room Image */}
           <Link to="/customized/livingroom" className="md:col-span-2">
             <img
-              src="./whatwedo4.png"
+              src={whatwedo4}
               alt="Living Room"
               className="w-full object-cover rounded-lg shadow h-[220px] sm:h-[240px] md:h-[250px] hover:scale-[1.02] transition-transform duration-300 ease-in-out"
             />

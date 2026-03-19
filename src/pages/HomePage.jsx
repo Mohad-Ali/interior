@@ -6,6 +6,7 @@ import SplitLayoutSection from "../Components/SplitLayoutSection";
 import AboutSection from "../Components/AboutSection";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
+import hero from "../assets/hero.png";
 
 export default function HomePage() {
  
@@ -68,7 +69,7 @@ useEffect(() => {
   ref={homeRef}
   id="home"
   className="relative min-h-screen bg-cover bg-center overflow-hidden"
-  style={{ backgroundImage: "url('/hero.png')" }}
+ style={{ backgroundImage: `url(${hero})` }}
 >
   {/* Mouse Follower - scoped to #home */}
   <div

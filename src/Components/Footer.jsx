@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import logo from "../assets/logo.png";
 import gsap from "gsap";
 import { FaInstagram } from "react-icons/fa";
 
@@ -25,7 +26,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between gap-10">
         {/* Logo */}
         <div className="flex flex-col items-start">
-          <img className="h-20" src="/logo.png" alt="KRIZIANO INTERIORS" />
+          <img className="h-20" src={logo} alt="KRIZIANO INTERIORS" />
         </div>
 
         {/* Menu */}
