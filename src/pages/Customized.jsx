@@ -19,8 +19,8 @@ import dining3 from "../assets/dining card3.png";
 
 import livingroom from "../assets/livingroom.png";
 import livingroom1 from "../assets/livingroom card1.png";
-import livingroom2 from "../assets/livingroom card2.png";
-import livingroom3 from "../assets/livingroom card3.png";
+import livingroom2 from "../assets/livingroom2.png";
+import livingroom3 from "../assets/livingroom3.png";
 
 export default function Customized() {
   const navigate = useNavigate();

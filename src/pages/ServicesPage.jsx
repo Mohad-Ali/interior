@@ -15,17 +15,17 @@ const services = [
   {
     title: "BEST INTERIOR DESIGN",
     text: "From idea to execution, we deliver complete interior design services personalized to your taste",
-    image: {design1},
+    image: design1,
   },
   {
     title: "SPACE PLANNING",
     text: "Transform your space with intelligent design and optimized layouts tailored to your needs.",
-    image: {design2},
+    image: design2,
   },
   {
     title: "PROJECT MANAGEMENT",
     text: "Interior project runs smoothly from start to finish. We handle timelines, budgets, and coordination so you can enjoy a stress-free transformation.",
-    image: {design3},
+    image: design3,
   },
 ];
 
@@ -116,11 +116,11 @@ export default function ServicesPage() {
       </div>
   <div className="flex flex-wrap gap-14 justify-center ">
     {[
-      { image: {proj1}, title: "Meet a Designer" },
-      { image: {proj2}, title: "Clear Approval" },
-      { image: {proj3}, title: "Execution Begins" },
-      { image: {proj4}, title: "Final Installation" },
-      { image: {proj5}, title: "On Time Project" },
+      { image: proj1, title: "Meet a Designer" },
+      { image: proj2, title: "Clear Approval" },
+      { image: proj3, title: "Execution Begins" },
+      { image: proj4, title: "Final Installation" },
+      { image: proj5, title: "On Time Project" },
     ].map((step, i) => (
       <div key={i} className="w-[140px] md:w-[180px] flex flex-col items-center">
         <div className="w-full h-full bg-transparent rounded  overflow-hidden hover:scale-105 transition-transform duration-300 ease-in-out">
